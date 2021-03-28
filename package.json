@@ -1,0 +1,28 @@
+{
+  "name": "ExpressJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "set PORT=3000 && node index.js",
+    "serve": "set PORT=3000 && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parazitexe/ExpressJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parazitexe/ExpressJS/issues"
+  },
+  "homepage": "https://github.com/parazitexe/ExpressJS#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
